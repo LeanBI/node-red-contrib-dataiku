@@ -1,0 +1,18 @@
+{
+    "name"         : "node-red-contrib-dataiku",
+    "version"      : "0.0.1",
+    "description"  : "Input/Output for Dataiku using the javascript api",
+    "dependencies": {
+    },
+    "keywords": [ "node-red", "dataiku", "machine-learning","big-data" ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LeanBI/node-red-contrib-dataiku.git"
+        },
+    "homepage": "http://leanbi.ch/industrie-40",
+    "node-red"     : {
+        "nodes": {
+            "dataiku": "node-red-contrib-dataiku/dataiku.js"
+        }
+    }
+}
